@@ -7,7 +7,7 @@ from PyQt5.QtCore import QTimer
 class ButtonClickGui(QMainWindow):
     def __init__(self):
         super(ButtonClickGui,self).__init__()
-        uic.loadUi("main.ui", self)
+        uic.loadUi(r"C:\Users\Jonar\Desktop\Senior Design GUI\WrapTechGUI\main.ui", self)
         self.startButton.clicked.connect(self.LEDon)
         self.stopButton.clicked.connect(self.LEDoff)
         self.arduino = serial.Serial('COM6', 9600) 

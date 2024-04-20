@@ -57,28 +57,12 @@ font-weight: bold</string>
     </size>
    </property>
   </widget>
-  <widget class="QProgressBar" name="progressBar">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>60</y>
-     <width>671</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="value">
-    <number>50</number>
-   </property>
-   <property name="textVisible">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_1">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>-60</y>
-     <width>391</width>
+     <x>200</x>
+     <y>0</y>
+     <width>551</width>
      <height>181</height>
     </rect>
    </property>
@@ -86,34 +70,16 @@ font-weight: bold</string>
     <string notr="true">font-size: 35</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30pt; font-weight:600;&quot;&gt;Job Progress&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>120</y>
-     <width>181</width>
-     <height>101</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-family: Arial;
-font-size: 24pt;
-font-weight: bold</string>
-   </property>
-   <property name="text">
-    <string>SPEED: </string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:30pt; font-weight:600;&quot;&gt;WrapTech Engineering&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>110</y>
-     <width>221</width>
-     <height>111</height>
+     <x>340</x>
+     <y>150</y>
+     <width>151</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -122,7 +88,7 @@ font-size: 24pt;
 font-weight: bold</string>
    </property>
    <property name="text">
-    <string>BATTERY %:</string>
+    <string>BATTERY:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
